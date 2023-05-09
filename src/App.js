@@ -13,13 +13,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p className="font-bold">so this is Tailwind huh</p>
         <AppDescription />
-      </header>
-      <main className="column">
-        <h1>Auth0 Login</h1>
+        <h1 className="font-mono py-2 px-4 m-3 rounded bg-gray-950/25">User Auth0 Login</h1>
         {error && <p>Authentication Error</p>}
-        {!error && isLoading && <p>Loading...</p>}
+        {!error && isLoading && <p className="font-mono">Loading...</p>}
         {!error && !isLoading && (
           <>
             <LoginButton />
@@ -27,7 +24,7 @@ function App() {
             <Profile />
           </>
         )}
-      </main>
+      </header>
     </div>
   );
 }
