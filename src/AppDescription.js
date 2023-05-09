@@ -12,7 +12,7 @@ const AppDescription = () => {
       <p className="text-xs px-8 py-0 font-mono">view the user data</p>
       <p className="text-xs px-8 py-0 font-mono">with an option to log out</p>
       <p> ---------------------------------- </p>
-      <p className="text-xs px-8 py-1 font-mono font-bold">steps breakdown</p>
+      <p className="uppercase underline text-xs px-8 py-1 font-mono font-bold">steps breakdown</p>
       <p className="text-xs text-left px-8 py-0 font-mono">0- check what is auth0</p>
       <p className="text-xs text-left px-8 py-0 font-mono">1- create home page </p>
       <p className="text-xs text-left px-8 py-0 font-mono">2- c logged in page </p>
