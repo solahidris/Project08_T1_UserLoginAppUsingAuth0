@@ -24,7 +24,8 @@ function App() {
             <Profile />
           </>
         )}
-        <p>this is the experiment-branch</p>
+        <p>this is the experiment-branch // 1st push didnt work. need to add push set upstream</p>
+        <p>trying to push again // 2nd push "git push"</p>
       </header>
     </div>
   );
