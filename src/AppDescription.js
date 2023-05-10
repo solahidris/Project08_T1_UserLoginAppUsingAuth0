@@ -12,10 +12,10 @@ const AppDescription = () => {
         steps breakdown
       </p>
       <p className="text-xs text-left px-32 py-0 font-mono">
-        0- check what is auth0
+      ✅ 0- check what is auth0
       </p>
       <p className="text-xs text-left px-32 py-0 font-mono">
-        1- install auth0 dependencies, url, index.js
+      ✅ 1- install auth0 dependencies, url, index.js
       </p>
       <p className="text-xs text-left px-32 py-0 font-mono">
         2- create components (login,logout,profile)
